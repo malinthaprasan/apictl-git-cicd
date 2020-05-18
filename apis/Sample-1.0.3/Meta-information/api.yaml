@@ -1,0 +1,21 @@
+id:
+  providerName: admin
+  apiName: Sample
+  version: 1.0.3
+description: 'This is a sample server Petstore server.  You can find out more about
+  Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For
+  this sample, you can use the api key `special-key` to test the authorization filters.'
+type: HTTP
+context: /v2/1.0.3
+contextTemplate: /v2/{version}
+tags:
+- pet
+- store
+- user
+availableTiers:
+- name: Unlimited
+status: CREATED
+visibility: public
+transports: http,https
+productionUrl: http://localhost:8080
+sandboxUrl: http://localhost:8081

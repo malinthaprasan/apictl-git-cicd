@@ -1,0 +1,9 @@
+environments:
+  - name: dev
+    endpoints:
+      production:
+      sandbox:
+  - name: prod
+    endpoints:
+      production:
+      sandbox:
