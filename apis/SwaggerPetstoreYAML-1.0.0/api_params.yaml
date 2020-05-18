@@ -1,0 +1,19 @@
+environments:
+  - name: dev
+    endpoints:
+      production: 
+        url: 'http://localhost:8080/api/petstore/v1'
+        config: 
+            retryTimeOut: 5
+            retryDelay: 1000
+            factor: 1
+      sandbox:
+  - name: prod
+    endpoints: 
+      production: 
+        url: 'http://localhost:8090/api/petstore/v1'
+        config: 
+            retryTimeOut: 5
+            retryDelay: 1000
+            factor: 1
+      sandbox:
