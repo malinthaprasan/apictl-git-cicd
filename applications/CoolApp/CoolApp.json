@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "name": "CoolApp",
+  "uuid": "f96a80a3-480d-4337-8048-0e26aaf26d48",
+  "subscriber": {
+    "name": "admin",
+    "id": 1,
+    "tenantId": 0
+  },
+  "subscribedAPIs": [],
+  "keys": [],
+  "oauthApps": {},
+  "tier": "Unlimited",
+  "description": "Description",
+  "status": "APPROVED",
+  "groupId": "",
+  "owner": "admin",
+  "applicationAttributes": {},
+  "tokenType": "JWT",
+  "subscriptionCount": 0
+}
