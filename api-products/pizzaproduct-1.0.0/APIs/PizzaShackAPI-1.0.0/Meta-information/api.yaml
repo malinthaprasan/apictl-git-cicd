@@ -1,14 +1,16 @@
 id:
-  providerName: pubcreator
-  apiName: SwaggerPetstoreYAML
+  providerName: admin
+  apiName: PizzaShackAPI
   version: 1.0.0
-uuid: 0855ff50-2bdc-4daf-80ff-01efb6e40e65
+uuid: fc4ee215-d2ec-40e6-be4f-4becea99a523
+description: This is a simple API for Pizza Shack online pizza delivery store.
 type: HTTP
-context: /petstore/v1/1.0.0
-contextTemplate: /petstore/v1/{version}
-tags: []
+context: /pizzashack/1.0.0
+contextTemplate: /pizzashack/{version}
+tags:
+ - pizza
 documents: []
-lastUpdated: Mar 11, 2020 11:44:15 AM
+lastUpdated: Jun 3, 2020 7:03:38 AM
 availableTiers:
  -
   name: Unlimited
@@ -25,13 +27,17 @@ uriTemplates: []
 apiHeaderChanged: false
 apiResourcePatternsChanged: false
 status: PUBLISHED
+technicalOwner: John Doe
+technicalOwnerEmail: architecture@pizzashack.com
+businessOwner: Jane Roe
+businessOwnerEmail: marketing@pizzashack.com
 visibility: public
 gatewayLabels: []
 endpointSecured: false
 endpointAuthDigest: false
 transports: http,https
 advertiseOnly: false
-apiOwner: pubcreator
+apiOwner: admin
 subscriptionAvailability: all_tenants
 corsConfiguration:
   corsConfigurationEnabled: false
@@ -51,17 +57,19 @@ corsConfiguration:
    - DELETE
    - PATCH
    - OPTIONS
-endpointConfig: '{"endpoint_type":"http","sandbox_endpoints":{"url":"http://localhost:8080/api/petstore/v1"},"production_endpoints":{"url":"http://localhost:8080/api/petstore/v1"}}'
+endpointConfig: '{"endpoint_type":"http","sandbox_endpoints":{"url":"https:\/\/localhost:9443\/am\/sample\/pizzashack\/v1\/api\/"},"production_endpoints":{"url":"https:\/\/localhost:9443\/am\/sample\/pizzashack\/v1\/api\/"}}'
 responseCache: Disabled
 cacheTimeout: 300
 implementation: ENDPOINT
-authorizationHeader: ${Authorization}
+authorizationHeader: Authorization
 scopes: []
-isDefaultVersion: true
+isDefaultVersion: false
 isPublishedDefaultVersion: false
+keyManagers:
+ - all
 environments:
  - Production and Sandbox
-createdTime: "1583907192799"
+createdTime: "1591147998649"
 additionalProperties: {}
 monetizationProperties: {}
 isMonetizationEnabled: false
@@ -74,4 +82,4 @@ enableSchemaValidation: false
 apiCategories: []
 accessControl: all
 rating: 0.0
-isLatest: true
+isLatest: false

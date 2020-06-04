@@ -1,14 +1,14 @@
 id:
-  providerName: pubcreator
-  apiName: SwaggerPetstoreYAML
+  providerName: admin
+  apiName: SwaggerPetstore
   version: 1.0.0
-uuid: 0855ff50-2bdc-4daf-80ff-01efb6e40e65
+uuid: 7f4cefed-851d-4c17-bb2a-3e786ccd6f1a
 type: HTTP
-context: /petstore/v1/1.0.0
-contextTemplate: /petstore/v1/{version}
+context: /petstore/1.0.0
+contextTemplate: /petstore/{version}
 tags: []
 documents: []
-lastUpdated: Mar 11, 2020 11:44:15 AM
+lastUpdated: Jun 3, 2020 7:13:54 AM
 availableTiers:
  -
   name: Unlimited
@@ -31,7 +31,7 @@ endpointSecured: false
 endpointAuthDigest: false
 transports: http,https
 advertiseOnly: false
-apiOwner: pubcreator
+apiOwner: admin
 subscriptionAvailability: all_tenants
 corsConfiguration:
   corsConfigurationEnabled: false
@@ -51,17 +51,19 @@ corsConfiguration:
    - DELETE
    - PATCH
    - OPTIONS
-endpointConfig: '{"endpoint_type":"http","sandbox_endpoints":{"url":"http://localhost:8080/api/petstore/v1"},"production_endpoints":{"url":"http://localhost:8080/api/petstore/v1"}}'
+endpointConfig: '{"endpoint_type":"http","sandbox_endpoints":{"url":"http://petstore.swagger.io/v1"},"production_endpoints":{"url":"http://petstore.swagger.io/v1"}}'
 responseCache: Disabled
 cacheTimeout: 300
 implementation: ENDPOINT
-authorizationHeader: ${Authorization}
+authorizationHeader: Authorization
 scopes: []
-isDefaultVersion: true
+isDefaultVersion: false
 isPublishedDefaultVersion: false
+keyManagers:
+ - all
 environments:
  - Production and Sandbox
-createdTime: "1583907192799"
+createdTime: "1591148629506"
 additionalProperties: {}
 monetizationProperties: {}
 isMonetizationEnabled: false
