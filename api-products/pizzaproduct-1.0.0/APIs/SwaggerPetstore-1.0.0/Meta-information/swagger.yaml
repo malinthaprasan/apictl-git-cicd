@@ -21,7 +21,7 @@ paths:
        -
         name: limit
         in: query
-        description: How many items to return at one time (max 100)
+        description: How many items to return at one time (max 1000)
         required: false
         style: form
         explode: true

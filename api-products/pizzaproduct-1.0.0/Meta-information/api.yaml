@@ -185,7 +185,7 @@ scopes: []
 monetizationProperties: {}
 isMonetizationEnabled: false
 apiSecurity: oauth2,oauth_basic_auth_api_key_mandatory
-transports: http,https
+transports: https
 responseCache: Disabled
 cacheTimeout: 300
 authorizationHeader: Authorization
