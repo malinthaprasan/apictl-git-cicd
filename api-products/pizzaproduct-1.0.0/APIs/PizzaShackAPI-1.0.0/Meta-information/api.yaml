@@ -10,7 +10,7 @@ contextTemplate: /pizzashack/{version}
 tags:
  - pizza
 documents: []
-lastUpdated: Jun 3, 2020 7:03:38 
+lastUpdated: Jun 3, 2020 7:03:38 AM
 availableTiers:
  -
   name: Unlimited
