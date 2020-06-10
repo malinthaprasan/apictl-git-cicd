@@ -17,3 +17,7 @@ environments:
             retryDelay: 1000
             factor: 1
       sandbox:
+
+import:
+  update: true
+  preserveProvider: true

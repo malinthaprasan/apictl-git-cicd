@@ -29,6 +29,7 @@ visibility: public
 gatewayLabels: []
 endpointSecured: false
 endpointAuthDigest: false
+keyManagers : ["all"]
 transports: http,https
 advertiseOnly: false
 apiOwner: pubcreator
