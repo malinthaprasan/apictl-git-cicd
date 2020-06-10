@@ -19,5 +19,5 @@ environments:
       sandbox:
 
 import:
-  update: true
+  update: false
   preserveProvider: true
