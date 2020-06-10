@@ -13,7 +13,7 @@ environments:
       production: 
         url: 'http://localhost:8090/api/petstore/v1'
         config: 
-            retryTimeOut: 5
+            retryTimeOut: 10
             retryDelay: 1000
             factor: 1
       sandbox:
