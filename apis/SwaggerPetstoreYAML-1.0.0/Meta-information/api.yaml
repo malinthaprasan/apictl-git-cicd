@@ -44,7 +44,6 @@ corsConfiguration:
    - Access-Control-Allow-Origin
    - Content-Type
    - SOAPAction
-   - apikey
   accessControlAllowMethods:
    - GET
    - PUT
