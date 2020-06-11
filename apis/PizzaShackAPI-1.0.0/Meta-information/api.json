@@ -10,7 +10,7 @@
   "context": "/pizzashack/1.0.0",
   "contextTemplate": "/pizzashack/{version}",
   "tags": [
-    "pizza"
+    "pizza","hello"
   ],
   "documents": [],
   "lastUpdated": "May 14, 2020 7:26:20 PM",
