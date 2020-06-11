@@ -55,7 +55,7 @@ endpointConfig: '{"endpoint_type":"http","sandbox_endpoints":{"url":"http://loca
 responseCache: Disabled
 cacheTimeout: 300
 implementation: ENDPOINT
-authorizationHeader: "${Authorization}"
+authorizationHeader: "${Authorization1}"
 scopes: []
 isDefaultVersion: true
 isPublishedDefaultVersion: false
