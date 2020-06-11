@@ -2,4 +2,4 @@ import:
   preserveProvider: false
   importApis: true
   updateApiProduct: true
-  updateApis: true
+  updateApis: false

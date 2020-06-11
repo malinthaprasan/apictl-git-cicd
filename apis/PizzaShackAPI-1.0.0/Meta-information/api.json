@@ -5,7 +5,7 @@
     "version": "1.0.0"
   },
   "uuid": "7b26fd0c-bc21-4daa-bf78-176cbe9bce4f",
-  "description": "This is a simple API for Pizza Shack online pizza delivery store. This is a cool API. yes very cool",
+  "description": "This is a simple API for Pizza Shack online pizza delivery store. This is a cool API. yes very cool.",
   "type": "HTTP",
   "context": "/pizzashack/1.0.0",
   "contextTemplate": "/pizzashack/{version}",
