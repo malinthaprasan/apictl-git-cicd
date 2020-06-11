@@ -24,7 +24,7 @@ visibility: public
 subscriptionAvailability: all_tenants
 state: PUBLISHED
 tenantDomain: carbon.super
-rating: "5.0"
+rating: ""
 productResources:
  -
   apiName: PizzaShackAPI

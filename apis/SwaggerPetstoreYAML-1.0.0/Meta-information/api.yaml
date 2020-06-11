@@ -55,6 +55,7 @@ endpointConfig: '{"endpoint_type":"http","sandbox_endpoints":{"url":"http://loca
 responseCache: Disabled
 cacheTimeout: 300
 implementation: ENDPOINT
+description: "This is a simple API for sample description. This is a cool API. yes"
 authorizationHeader: "${Authorization1}"
 scopes: []
 isDefaultVersion: true
