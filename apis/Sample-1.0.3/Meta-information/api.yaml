@@ -14,7 +14,7 @@ tags:
 - user
 availableTiers:
 - name: Unlimited
-status: CREATED
+status: PUBLISHED
 visibility: public
 transports: http,https
 productionUrl: http://localhost:8080
