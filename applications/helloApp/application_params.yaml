@@ -2,5 +2,5 @@ import:
   update: true
   targetOwner: malintha
   preserveOwner: true
-  skipKeys: true
-  skipSubscriptions: true
+  skipKeys: false
+  skipSubscriptions: false
