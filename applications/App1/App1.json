@@ -239,5 +239,6 @@
   "owner": "admin",
   "applicationAttributes": {},
   "tokenType": "JWT",
-  "subscriptionCount": 0
+  "subscriptionCount": 0,
+  "keyManagerWiseOAuthApp": {}
 }

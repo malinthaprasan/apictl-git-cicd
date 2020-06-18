@@ -1,0 +1,21 @@
+{
+  "id": 5,
+  "name": "helloApp",
+  "uuid": "e461ff81-4287-4759-ad1c-baab25fdf123",
+  "subscriber": {
+    "name": "admin",
+    "id": 1,
+    "tenantId": 0
+  },
+  "subscribedAPIs": [],
+  "keys": [],
+  "keyManagerWiseOAuthApp": {},
+  "tier": "10PerMin",
+  "description": "",
+  "status": "APPROVED",
+  "groupId": "",
+  "owner": "admin",
+  "applicationAttributes": {},
+  "tokenType": "JWT",
+  "subscriptionCount": 0
+}

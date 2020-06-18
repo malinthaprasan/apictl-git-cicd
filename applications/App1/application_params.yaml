@@ -1,6 +1,6 @@
 import:
   update: true
-  owner: admin
+  targetOwner: admin
   preserveOwner: true
   skipKeys: true
   skipSubscriptions: true
