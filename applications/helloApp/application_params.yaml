@@ -1,6 +1,0 @@
-import:
-  update: true
-  targetOwner: malintha
-  preserveOwner: true
-  skipKeys: false
-  skipSubscriptions: false
