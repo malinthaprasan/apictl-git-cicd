@@ -219,7 +219,7 @@
       "isBlocked": false
     }
   ],
-  "keys": [],
+  "keyManagerWiseOAuthApp": {},
   "oauthApps": {
     "PRODUCTION": {
       "clientId": "3VoRX4T1oTDhxt5Tr1GgDwd4dwEa",

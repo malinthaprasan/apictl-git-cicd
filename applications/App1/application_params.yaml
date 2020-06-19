@@ -1,6 +1,6 @@
 import:
   update: true
-  targetOwner: malintha
+  targetOwner: admin
   preserveOwner: true
   skipKeys: false
   skipSubscriptions: false
