@@ -9,6 +9,7 @@
   },
   "subscribedAPIs": [],
   "keys": [],
+  "keyManagerWiseOAuthApp": {},
   "oauthApps": {},
   "tier": "Unlimited",
   "description": "This is a cool app",
