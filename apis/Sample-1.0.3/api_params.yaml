@@ -7,7 +7,6 @@ environments:
     endpoints:
       production:
       sandbox:
-
 import:
   update: true
   preserveProvider: true
