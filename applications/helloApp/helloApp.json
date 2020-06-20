@@ -1,0 +1,64 @@
+{
+  "id": 16,
+  "name": "helloApp",
+  "uuid": "7bd999e4-17ad-46f4-958e-d0ee8322333a",
+  "subscriber": {
+    "name": "admin",
+    "id": 1,
+    "tenantId": 0
+  },
+  "subscribedAPIs": [
+    {
+      "subscriptionId": 10,
+      "tier": {
+        "name": "Unlimited",
+        "displayName": "Unlimited",
+        "requestsPerMin": 0,
+        "requestCount": 0,
+        "unitTime": 0,
+        "timeUnit": "ms",
+        "stopOnQuotaReached": true
+      },
+      "subscriber": {
+        "name": "admin",
+        "id": 1,
+        "tenantId": 0
+      },
+      "apiId": {
+        "providerName": "admin",
+        "apiName": "SwaggerPetstoreYAML",
+        "version": "1.0.0"
+      },
+      "application": {
+        "id": 0,
+        "name": "helloApp",
+        "uuid": "7bd999e4-17ad-46f4-958e-d0ee8322333a",
+        "subscriber": {
+          "name": "admin",
+          "id": 1,
+          "tenantId": 0
+        },
+        "subscribedAPIs": [],
+        "keys": [],
+        "keyManagerWiseOAuthApp": {},
+        "applicationAttributes": {},
+        "subscriptionCount": 0
+      },
+      "subStatus": "UNBLOCKED",
+      "subCreatedStatus": "SUBSCRIBE",
+      "keys": [],
+      "uuid": "6da504f3-78a4-4089-8b04-b185f91c629b",
+      "isBlocked": false
+    }
+  ],
+  "keys": [],
+  "keyManagerWiseOAuthApp": {},
+  "tier": "10PerMin",
+  "description": "",
+  "status": "APPROVED",
+  "groupId": "",
+  "owner": "admin",
+  "applicationAttributes": {},
+  "tokenType": "JWT",
+  "subscriptionCount": 0
+}
