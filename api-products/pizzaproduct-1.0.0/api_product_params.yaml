@@ -1,0 +1,6 @@
+import:
+  preserveProvider: false
+  importApis: true
+  updateApiProduct: true
+  updateApis: false
+  
