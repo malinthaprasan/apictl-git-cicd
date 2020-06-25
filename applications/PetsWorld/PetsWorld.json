@@ -1,9 +1,9 @@
 {
   "id": 16,
-  "name": "helloApp",
+  "name": "PetsWorld",
   "uuid": "7bd999e4-17ad-46f4-958e-d0ee8322333a",
   "subscriber": {
-    "name": "admin",
+    "name": "dennis",
     "id": 1,
     "tenantId": 0
   },
@@ -20,21 +20,21 @@
         "stopOnQuotaReached": true
       },
       "subscriber": {
-        "name": "admin",
+        "name": "dennis",
         "id": 1,
         "tenantId": 0
       },
       "apiId": {
-        "providerName": "admin",
-        "apiName": "SwaggerPetstoreYAML",
+        "providerName": "alice",
+        "apiName": "PetStore",
         "version": "1.0.0"
       },
       "application": {
         "id": 0,
-        "name": "helloApp",
+        "name": "PetsWorld",
         "uuid": "7bd999e4-17ad-46f4-958e-d0ee8322333a",
         "subscriber": {
-          "name": "admin",
+          "name": "dennis",
           "id": 1,
           "tenantId": 0
         },
@@ -57,7 +57,7 @@
   "description": "",
   "status": "APPROVED",
   "groupId": "",
-  "owner": "admin",
+  "owner": "dennis",
   "applicationAttributes": {},
   "tokenType": "JWT",
   "subscriptionCount": 0

@@ -1,9 +1,9 @@
 {
   "id": 9,
-  "name": "App1",
+  "name": "PizzaApp",
   "uuid": "cf1017f8-1770-4eed-9dc4-511329e4387a",
   "subscriber": {
-    "name": "malintha",
+    "name": "dennis",
     "id": 2,
     "tenantId": 0
   },
@@ -20,21 +20,21 @@
         "stopOnQuotaReached": true
       },
       "subscriber": {
-        "name": "malintha",
+        "name": "dennis",
         "id": 2,
         "tenantId": 0
       },
       "apiId": {
-        "providerName": "admin",
+        "providerName": "alice",
         "apiName": "PizzaShackAPI",
         "version": "1.0.0"
       },
       "application": {
         "id": 0,
-        "name": "App1",
+        "name": "PizzaApp",
         "uuid": "cf1017f8-1770-4eed-9dc4-511329e4387a",
         "subscriber": {
-          "name": "malintha",
+          "name": "dennis",
           "id": 2,
           "tenantId": 0
         },
@@ -61,7 +61,7 @@
         "parameters": {
           "grant_types": "refresh_token urn:ietf:params:oauth:grant-type:saml2-bearer password client_credentials iwa:ntlm urn:ietf:params:oauth:grant-type:device_code urn:ietf:params:oauth:grant-type:jwt-bearer",
           "redirect_uris": {},
-          "client_name": "malintha_App1_PRODUCTION"
+          "client_name": "dennis_PizzaApp_PRODUCTION"
         },
         "isSaasApplication": false,
         "appAttributes": {}
@@ -71,7 +71,7 @@
   "tier": "Unlimited",
   "status": "APPROVED",
   "groupId": "",
-  "owner": "malintha",
+  "owner": "dennis",
   "applicationAttributes": {},
   "tokenType": "JWT",
   "subscriptionCount": 0

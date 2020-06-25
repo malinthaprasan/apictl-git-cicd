@@ -1,9 +1,9 @@
 {
   "id": 13,
-  "name": "helloApp2",
+  "name": "HelloApp",
   "uuid": "f2092988-b2c6-4927-8ed0-8a91f3d3faascd",
   "subscriber": {
-    "name": "malintha",
+    "name": "david",
     "id": 2,
     "tenantId": 0
   },
@@ -20,21 +20,21 @@
         "stopOnQuotaReached": true
       },
       "subscriber": {
-        "name": "malintha",
+        "name": "david",
         "id": 2,
         "tenantId": 0
       },
       "apiId": {
-        "providerName": "admin",
-        "apiName": "SwaggerPetstoreYAML",
+        "providerName": "alice",
+        "apiName": "PetStore",
         "version": "1.0.0"
       },
       "application": {
         "id": 0,
-        "name": "helloApp",
+        "name": "HelloApp",
         "uuid": "f2092988-b2c6-4927-8ed0-8a91f3d3facd",
         "subscriber": {
-          "name": "malintha",
+          "name": "david",
           "id": 2,
           "tenantId": 0
         },
@@ -62,21 +62,21 @@
         "stopOnQuotaReached": true
       },
       "subscriber": {
-        "name": "malintha",
+        "name": "david",
         "id": 2,
         "tenantId": 0
       },
       "apiId": {
-        "providerName": "admin",
+        "providerName": "alice",
         "apiName": "PizzaShackAPI",
         "version": "1.0.0"
       },
       "application": {
         "id": 0,
-        "name": "helloApp",
+        "name": "HelloApp",
         "uuid": "f2092988-b2c6-4927-8ed0-8a91f3d3facd",
         "subscriber": {
-          "name": "malintha",
+          "name": "david",
           "id": 2,
           "tenantId": 0
         },
@@ -91,48 +91,6 @@
       "keys": [],
       "uuid": "19c3684f-ad60-4924-a7c4-9e019be9016d",
       "isBlocked": false
-    },
-    {
-      "subscriptionId": 9,
-      "tier": {
-        "name": "Unlimited",
-        "displayName": "Unlimited",
-        "requestsPerMin": 0,
-        "requestCount": 0,
-        "unitTime": 0,
-        "timeUnit": "ms",
-        "stopOnQuotaReached": true
-      },
-      "subscriber": {
-        "name": "malintha",
-        "id": 2,
-        "tenantId": 0
-      },
-      "apiId": {
-        "providerName": "admin",
-        "apiName": "Sample",
-        "version": "1.0.3"
-      },
-      "application": {
-        "id": 0,
-        "name": "helloApp",
-        "uuid": "f2092988-b2c6-4927-8ed0-8a91f3d3facd",
-        "subscriber": {
-          "name": "malintha",
-          "id": 2,
-          "tenantId": 0
-        },
-        "subscribedAPIs": [],
-        "keys": [],
-        "keyManagerWiseOAuthApp": {},
-        "applicationAttributes": {},
-        "subscriptionCount": 0
-      },
-      "subStatus": "UNBLOCKED",
-      "subCreatedStatus": "SUBSCRIBE",
-      "keys": [],
-      "uuid": "56a96a9d-e5fa-440e-be56-079f3f0d21ad",
-      "isBlocked": false
     }
   ],
   "keys": [],
@@ -145,7 +103,7 @@
         "parameters": {
           "grant_types": "refresh_token urn:ietf:params:oauth:grant-type:saml2-bearer password client_credentials iwa:ntlm urn:ietf:params:oauth:grant-type:device_code urn:ietf:params:oauth:grant-type:jwt-bearer",
           "redirect_uris": {},
-          "client_name": "malintha_helloApp_PRODUCTION"
+          "client_name": "david_HelloApp_PRODUCTION"
         },
         "isSaasApplication": false,
         "appAttributes": {}
@@ -156,7 +114,7 @@
   "description": "",
   "status": "APPROVED",
   "groupId": "",
-  "owner": "malintha",
+  "owner": "david",
   "applicationAttributes": {},
   "tokenType": "JWT",
   "subscriptionCount": 0

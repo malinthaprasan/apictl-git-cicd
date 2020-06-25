@@ -1,11 +1,11 @@
 id:
-  providerName: pubcreator
-  apiName: SwaggerPetstoreYAML
+  providerName: alice
+  apiName: PetStore
   version: 1.0.0
 uuid: 0855ff50-2bdc-4daf-80ff-01efb6e40e65
 type: HTTP
-context: /petstore/v1/1.0.0
-contextTemplate: /petstore/v1/{version}
+context: /petstore/1.0.0
+contextTemplate: /petstore/{version}
 tags: []
 documents: []
 lastUpdated: Mar 11, 2020 11:44:15 AM

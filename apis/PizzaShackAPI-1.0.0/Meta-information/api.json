@@ -1,6 +1,6 @@
 {
   "id": {
-    "providerName": "admin",
+    "providerName": "alice",
     "apiName": "PizzaShackAPI",
     "version": "1.0.0"
   },
