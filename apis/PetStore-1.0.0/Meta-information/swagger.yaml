@@ -32,7 +32,7 @@ security:
  -
   default: []
 paths:
-  /pets:
+  /pet:
     post:
       tags:
        - pet
