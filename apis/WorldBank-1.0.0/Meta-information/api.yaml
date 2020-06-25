@@ -8,7 +8,7 @@ context: /worldbank/1.0.0
 contextTemplate: /worldbank/{version}
 tags: []
 documents: []
-description: "hello worldbank 123"
+description: "hello worldbank"
 lastUpdated: Jun 25, 2020 12:50:14 PM
 availableTiers:
  -
