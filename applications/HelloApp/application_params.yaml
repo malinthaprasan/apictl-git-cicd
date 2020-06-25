@@ -1,6 +1,5 @@
 import:
   update: true
-  targetOwner: david
   preserveOwner: true
-  skipKeys: true
-  skipSubscriptions: true
+  skipKeys: false
+  skipSubscriptions: false
