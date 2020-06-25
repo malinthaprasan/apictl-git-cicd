@@ -56,7 +56,7 @@ responseCache: Disabled
 cacheTimeout: 300
 implementation: ENDPOINT
 description: "This is a simple API for sample description. This is a cool API. yes"
-authorizationHeader: "${Authorization1}"
+authorizationHeader: "Bearer"
 scopes: []
 isDefaultVersion: true
 isPublishedDefaultVersion: false

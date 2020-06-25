@@ -52,11 +52,7 @@
         "Unlimited"
       ],
       "mediationScript": "null",
-      "scopes": [
-        null,
-        null,
-        null
-      ],
+      "scopes": [],
       "mediationScripts": {}
     },
     {
@@ -75,9 +71,7 @@
         "Unlimited"
       ],
       "mediationScript": "null",
-      "scopes": [
-        null
-      ],
+      "scopes": [],
       "mediationScripts": {}
     },
     {
@@ -112,9 +106,7 @@
         "Unlimited"
       ],
       "mediationScript": "null",
-      "scopes": [
-        null
-      ],
+      "scopes": [],
       "mediationScripts": {}
     }
   ],
