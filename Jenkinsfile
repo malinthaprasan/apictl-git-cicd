@@ -33,7 +33,6 @@ pipeline {
                 sh """
                 apictl login live -u admin -p admin -k
                 apictl vcs deploy -e live
-                sleep 6
                 """
             }
         }
