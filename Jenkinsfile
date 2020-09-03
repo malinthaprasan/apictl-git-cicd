@@ -31,8 +31,8 @@ pipeline {
         stage('Deploy MobileStore API To Dev') {
             steps {
                 sh """
-                apictl login dev -u admin -p admin -k
-                apictl import-api -e dev -f MobileStore-v1.0  -k --update -k
+                apictl login live -u admin -p admin -k
+                apictl import-api -e live -f MobileStore-v1.0  -k --update -k
                 sleep 6
                 """
             }
