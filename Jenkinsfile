@@ -16,6 +16,18 @@ pipeline {
     }
 
     stages {
+
+        stage('Setup Environments for APICTL') {
+            steps {
+                sh """
+                ENVCOUNT=$(apictl list envs --format {{.}} | wc -l)
+                if [ "$ENVCOUNT" == "0" ]; then
+                    apictl add-env -e live --apim https://localhost:9443
+                fi
+                """
+            }
+        }
+
         stage('Deploy MobileStore API To Dev') {
             steps {
                 sh """
