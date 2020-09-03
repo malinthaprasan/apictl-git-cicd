@@ -6,7 +6,7 @@ pipeline {
         }
     }
     environment { 
-        PATH = "/root/apictl:/root/.nvm/versions/node/v12.18.1/bin:$PATH"
+        PATH = "/root/apictl:$PATH"
     }
     options {
         buildDiscarder logRotator( 
@@ -17,7 +17,7 @@ pipeline {
 
     stages {
 
-        stage('Setup Environments for APICTL') {
+        stage('Setup Environment for APICTL') {
             steps {
                 sh """#!/bin/bash
                 ENVCOUNT=\$(apictl list envs --format {{.}} | wc -l)
@@ -28,45 +28,14 @@ pipeline {
             }
         }
 
-        stage('Deploy MobileStore API To Dev') {
+        stage('Deploy APIs To "Live" Environment') {
             steps {
                 sh """
                 apictl login live -u admin -p admin -k
-                apictl import-api -e live -f MobileStore-v1.0  -k --update -k
+                apictl vcs deploy -e live
                 sleep 6
                 """
             }
         }
-
-        stage('Test MobileStore API In Dev') {
-            steps {
-                sh """
-                export TOKEN=\$(apictl get-keys -n MobileStore -v 1.0 -e dev -k)
-                echo \$(envsubst < Testing/envs/dev.json) > Testing/envs/env.tmp.json
-                newman run Testing/TestAPI.postman_collection.json -e Testing/envs/env.tmp.json --insecure
-                """
-            }
-        }
-
-        stage('Deploy MobileStore API To Prod') {
-            steps {
-                sh """
-                apictl login prod -u admin -p admin -k
-                apictl import-api -e prod -f MobileStore-v1.0  -k --update -k
-                sleep 6
-                """
-            }
-        }
-
-        stage('Test MobileStore API In Prod') {
-            steps {
-                sh """
-                export TOKEN=\$(apictl get-keys -n MobileStore -v 1.0 -e prod -k)
-                echo \$(envsubst < Testing/envs/prod.json) > Testing/envs/env.tmp.json
-                newman run Testing/TestAPI.postman_collection.json -e Testing/envs/env.tmp.json --insecure
-                """
-            }
-        }
-
     }   
 }
