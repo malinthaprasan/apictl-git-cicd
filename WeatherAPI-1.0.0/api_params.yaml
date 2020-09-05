@@ -1,5 +1,5 @@
 environments:
-  - name: local
+  - name: live
     endpoints:
       production:
         url: https://live.weatherapi.com
