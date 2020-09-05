@@ -1,0 +1,12 @@
+environments:
+  - name: local
+    endpoints:
+      production:
+        url: https://live.weatherapi.com
+      sandbox:
+        url: https://sandbox.live.weatherapi.com
+
+deploy:
+  import:
+    update: true
+    preserveProvider: true
